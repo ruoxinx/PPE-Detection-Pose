@@ -7,7 +7,6 @@ Pose guided anchoring for detecting proper use of personal protective equipment
 2. [Implementation](#Implementation)
 3. [CPPE Dataset](#CPPE-Dataset)
 4. [Comparative studies: Pre-trained object detection models](#Comparative-studies-Pre-trained-object-detection-models)
-5. [C++ Demo](#C-demo)
 
 ## **Introduction**
 
@@ -86,7 +85,6 @@ Generally, each worker produces two types of part attention regions: `head atten
   - The `GDUT-HWD dataset` contains 3,174 images, which has been split into 1,587 for training (GDUT-HWD trainval) and 1,587 for testing (GDUT-HWD test). It contains 18,893 instances. Data available in [Baidu Yun](https://pan.baidu.com/share/init?surl=_Jj56B05YpUv5iLB9JMb4g) (pwd:dstk).
   
   - The `SHWD` contains 7581 images with 9,044 safety helmet wearing objects(positive) and 111,514 normal head objects(not wearing or negative). Data available in [Google Drive](https://drive.google.com/open?id=1qWm7rrwvjAWs1slymbrLaCf7Q-wnGLEX).
-  
 ## **Comparative studies: Pre-trained object detection models**
 
 The following pretrained models on the CPPE dataset are available.
@@ -97,10 +95,7 @@ The following pretrained models on the CPPE dataset are available.
 
 - [Faster R-CNN](https://drive.google.com/file/d/1rqveCR3d69eT3fEET4ubx0n3GD-aayjA/view?usp=sharing)
 
-
-## **C++ Demo**
-
-The python demo is used for the quick results preview and test. We will consider compiling the codes in c++ demo in future work. 
+The python demo is used for the quick results preview and test.
 
 ## **Acknowledgements**
 
