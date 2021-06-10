@@ -1,14 +1,12 @@
-from upbody import  loc_upbody
-from head import  loc_head
+from upbody import loc_upbody
+from head import loc_head
 
-def main():
+def main(img, json):
+    loc_upbody(img, json)
+    loc_head(img, json)
 
+if __name__ == "__main__":
     ## input images and json files
     img = '../examples/000124.jpg'
     temp = '../examples/000124_keypoints.json'
-
-    loc_upbody(img, temp)
-    loc_head(img, temp)
-
-if __name__ == "__main__":
-    main()
+    main(img, temp)
