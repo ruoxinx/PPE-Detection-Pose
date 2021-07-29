@@ -23,9 +23,9 @@ The repository presents the implementation of vision-based PPE compliances (e.g.
 
 Worker pose estimation mainly follows the work of [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) to detect worker body parts as spatial anchors.
 
-  - Download `pose visulization images` for CPPE Dataset from [Google Drive](https://drive.google.com/file/d/1046-CP124UsXfxgDy3sjZ5xl_Dy9BVZ2/view?usp=sharing).
+  - Download `pose visualization images` for CPPE Dataset from [Google Drive](https://drive.google.com/drive/folders/1YI_eHcLEJC6-xpNq1AVPVTmVOAgXeCNX?usp=sharing).
 
-  - Download `pose estimation results` in JSON formats from [Google Drive](https://drive.google.com/file/d/1046-CP124UsXfxgDy3sjZ5xl_Dy9BVZ2/view?usp=sharing).
+  - Download `pose estimation results` in JSON formats from [Google Drive](https://drive.google.com/drive/folders/1TeeXc-Cum1jUZF0qBh-IBDuy5D1RqAnj?usp=sharing).
 
 ### **Part attention localization**
 
@@ -76,7 +76,7 @@ Generally, each worker produces two types of part attention regions: `head atten
 
 - Construction Personal Protective Equipment (CPPE) Dataset
 
-  - The proposed `CPPE dataset` consists of 932 images, including 2,747 instances of hardhats, 1,339 instances of safety vests, and 3,428 workers by collecting data from `Pictor-v3 dataset`, `GDUT-HWD dataset`, `Safety helmet wearing detect dataset (SHWD)`, and web-mined images. Data available in [Google Drive](https://drive.google.com/file/d/1046-CP124UsXfxgDy3sjZ5xl_Dy9BVZ2/view?usp=sharing).
+  - The proposed `CPPE dataset` consists of 932 images, including 2,747 instances of hardhats, 1,339 instances of safety vests, and 3,428 workers by collecting data from `Pictor-v3 dataset`, `GDUT-HWD dataset`, `Safety helmet wearing detect dataset (SHWD)`, and web-mined images. Data available in [Google Drive](https://drive.google.com/drive/folders/1eZyWbvYRtqr5i0Gx6qYAvIZm1ZC7g56y?usp=sharing).
 
 - Related public PPE datasets
 
@@ -105,6 +105,6 @@ https://github.com/open-mmlab/mmpose
 
 GDUT-HWD Dataset credits: https://github.com/wujixiu/helmet-detection
 
-Pictor-v3 dataset credits: https://github.com/ciber-lab/pictor-ppe#pre-trained-models
+Pictor-v3 dataset credits: https://github.com/ciber-lab/pictor-ppe
 
 SHWD dataset credits: https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset
