@@ -97,6 +97,22 @@ The following pretrained models on the CPPE dataset are available.
 
 The python demo is used for the quick results preview and test.
 
+## **Citation**
+
+If you find this dataset useful in your research, please consider cite:
+
+```
+@article{xiong2021pose,
+  title={Pose guided anchoring for detecting proper use of personal protective equipment},
+  author={Xiong, Ruoxin and Tang, Pingbo},
+  journal={Automation in Construction},
+  volume={130},
+  pages={103828},
+  year={2021},
+  doi = {https://doi.org/10.1016/j.autcon.2021.103828}
+}
+```
+
 ## **Acknowledgements**
 
 https://github.com/CMU-Perceptual-Computing-Lab/openpose
