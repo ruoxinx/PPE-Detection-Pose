@@ -76,11 +76,11 @@ Generally, each worker produces two types of part attention regions: `head atten
 
 - Construction Personal Protective Equipment (CPPE) Dataset
 
-  - The proposed `CPPE dataset` consists of 932 images, including 2,747 instances of hardhats, 1,339 instances of safety vests, and 3,428 workers by collecting data from `Pictor-v3 dataset`, `GDUT-HWD dataset`, `Safety helmet wearing detect dataset (SHWD)`, and web-mined images. Data available in [Google Drive](https://drive.google.com/drive/folders/1eZyWbvYRtqr5i0Gx6qYAvIZm1ZC7g56y?usp=sharing).
+  - The proposed `CPPE dataset` consists of 932 images, including 2,747 instances of hardhats, 1,339 instances of safety vests, and 3,428 workers by collecting data from `Pictor-v3 dataset`, `GDUT-HWD dataset`, `Safety helmet wearing detect dataset (SHWD)`, and web-mined images. The aggregate dataset is not redistributed from this repository because source dataset license terms, including the `Pictor-v3 dataset` license update to `CC BY-NC-ND 4.0`, restrict redistribution of adapted or combined releases.
 
 - Related public PPE datasets
 
-  - The `Pictor-v3 dataset` contains 774 images for public access. Data available in [Google Drive](https://drive.google.com/drive/folders/19uUR6EJPQzMeK0YpsxRm51wMZzDmcsv6).
+  - The `Pictor-v3 dataset` contains 774 images for public access and is licensed under `CC BY-NC-ND 4.0`. Please review the original project terms before use: [Pictor-v3 project](https://github.com/ciber-lab/pictor-ppe).
 
   - The `GDUT-HWD dataset` contains 3,174 images, which has been split into 1,587 for training (GDUT-HWD trainval) and 1,587 for testing (GDUT-HWD test). It contains 18,893 instances. Data available in [Baidu Yun](https://pan.baidu.com/share/init?surl=_Jj56B05YpUv5iLB9JMb4g) (pwd:dstk).
   

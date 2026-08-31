@@ -1,0 +1,12 @@
+# Local editor settings
+.idea/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Locally generated model weights
+model/trained_*.h5
+
+# Private/local dataset access notes
+DATASET_LINKS.local.md
